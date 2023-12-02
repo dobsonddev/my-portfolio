@@ -52,7 +52,7 @@ const Navbar: React.FC<NavbarProps> = ({ toggleChatModal }) => {
             <div className="flex-1 flex items-center justify-center">
                 <button onClick={toggleChatModal} className="flex flex-row hover:text-dark bg-custom-orange hover:bg-light text-xs md:text-sm lg:text-base py-1 px-2 md:py-2 md:px-4 transition-all duration-500 transform hover:-translate-y-1 hover:animate-wiggle">
                     Chat with Momo
-                    <img src="/lemur.svg" alt="Momo" className="ml-4" style={{ height: '25px' }} />
+                    <img src="/lemur.svg" alt="Momo" className="ml-3" style={{ height: '25px', width:'...'  }} />
                 </button>
             </div>
 
