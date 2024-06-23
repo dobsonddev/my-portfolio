@@ -71,7 +71,7 @@ const ExperienceTree = () => {
     return (
         <div ref={containerRef} className="container mx-auto h-auto pt-6 px-4 md:px-8 md:pb-20 lg:pb-64">
             {/* Desktop Version */}
-            <div className="hidden lg:block relative pt-36 md:pt-52 md:mb-60 lg:mb-20" style={{ height: `${experiences.length * verticalSpacing}px` }}>
+            <div className="hidden xl:block relative pt-36 md:pt-52 md:mb-60 lg:mb-20" style={{ height: `${experiences.length * verticalSpacing}px` }}>
                 <div className={`absolute left-1/2 h-4/5 border-r-4 ${borderClass} rounded transform -translate-x-1/2`}></div>
 
                 {experiences.map((exp, index) => (
@@ -126,7 +126,7 @@ const ExperienceTree = () => {
             </div>
 
             {/* Mobile and Tablet Version */}
-            <div className="lg:hidden">
+            <div className="xl:hidden">
                 {experiences.map((exp, index) => (
                     <motion.div
                         key={index}

@@ -1,5 +1,6 @@
 import React from "react";
 import ExperienceTree from "@/components/Experience/ExperienceTree";
+import {NewExperiences} from "@/components/Experience/NewExperiences";
 
 function Experiences() {
     return (
@@ -14,6 +15,7 @@ function Experiences() {
                     </h2>
                 </div>
                 <ExperienceTree />
+                <NewExperiences/>
             </div>
         </div>
     );
